@@ -21,14 +21,45 @@
             <input id="number" type="number" min="18" max="120" required placeholder="20"/>
         </label>
         <label id="dropdown-label" for="dropdown"> Select your gender:
-            <select id="dropdown">
+            <select id="dropdown" required>
                 <option value="">(Select one)</option>
                 <option value="1">Male</option>
                 <option value="2">Female</option>
             </select>
         </label>
+</fieldset>
+        <legend>Choose (required):</legend>
+        <label for="dog-person"> Dog Person
+            <input id="dog-person" name="pet-option" type="radio" value="1"/>
+        </label>
+        <label for="cat-person"> Cat person
+            <input id="cat-person" name="pet-option" type="radio" value="2"/>
+        </label>
+        <legend>Choose your favorite muppets:</legend>
+        <label for="favorite-muppet"> Kermit
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="1"/>
+        </label>
+        <label for="favorite-muppet"> Ms. Piggy
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="2"/>
+        </label>
+        <label for="favorite-muppet"> Oscar
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="3"/>
+        </label>
+        <label for="favorite-muppet"> Animal
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="4"/>
+        </label>
+        <label for="favorite-muppet"> Elmo
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="2"/>
+        </label>
+        <label for="favorite-muppet"> Bert
+            <input id="favorite-muppet" name="muppet" type="checkbox" value="2"/>
+        </label>
+        <label for="comments"> Put your comments right here:
+            <textarea id="comments" name="comments"></textarea>
+        </label>
+
     </fieldset>
-        <input type="submit" value="Submit"/>
+        <input id="submit" type="submit" value="Submit"/>
     </form>
 
     
