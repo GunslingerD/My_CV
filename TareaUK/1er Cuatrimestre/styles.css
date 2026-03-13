@@ -1,0 +1,13 @@
+body {
+    background-color: #22213a;
+    color: aqua;
+}
+
+
+label {
+    display: block;
+}
+
+textarea {
+    display: block;
+}
